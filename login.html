@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Campus Connect Nexus</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="register.html">Register</a>
+<a href="login.html">Login</a>
+<a href="resource.html">Resources</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section>
+
+<h2>Student Login</h2>
+
+<form id="loginForm">
+
+<label>Email</label>
+
+<input
+type="email"
+id="loginEmail"
+placeholder="Enter Email"
+required>
+
+<label>Password</label>
+
+<input
+type="password"
+id="loginPassword"
+placeholder="Enter Password"
+required
+minlength="8">
+
+<div style="margin:15px 0;">
+<input type="checkbox" id="showPass">
+
+<label for="showPass">Show Password</label>
+</div>
+
+<input type="submit" value="Login">
+
+<input type="reset" value="Clear">
+
+</form>
+
+</section>
+
+<footer>
+<p>© 2026 Campus Connect Nexus</p>
+</footer>
+
+<script src="login.js"></script>
+
+</body>
+</html>

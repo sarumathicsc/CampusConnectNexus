@@ -1,0 +1,498 @@
+/* ==============================
+   RESET
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==============================
+   BODY
+================================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* ==============================
+   HEADER
+================================= */
+
+header {
+    background: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+
+/* ==============================
+   LOGO
+================================= */
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+
+/* ==============================
+   NAVIGATION
+================================= */
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #ff9800;
+    color: white;
+}
+
+
+/* ==============================
+   BANNER
+================================= */
+
+.banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: white;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0;
+}
+
+
+/* ==============================
+   GENERAL SECTIONS
+================================= */
+
+section {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+/* ==============================
+   WELCOME SECTION
+================================= */
+
+.welcome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.welcome-text {
+    width: 55%;
+    min-width: 300px;
+}
+
+.welcome-text h2 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.welcome-text p {
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.welcome-text ul {
+    margin-top: 20px;
+    padding-left: 25px;
+    text-align: left;
+}
+
+.welcome-text li {
+    margin-bottom: 10px;
+}
+
+
+/* ==============================
+   STUDENT IMAGE
+================================= */
+
+.welcome-image {
+    text-align: center;
+}
+
+.welcome-image img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px gray;
+}
+
+
+/* ==============================
+   CAMPUS SECTION
+================================= */
+
+.campus {
+    text-align: center;
+    padding: 40px;
+}
+
+.campus img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px gray;
+    margin: 20px 0;
+}
+
+.campus p {
+    width: 80%;
+    margin: auto;
+    line-height: 1.8;
+}
+
+
+/* ==============================
+   IMAGES
+================================= */
+
+img {
+    max-width: 100%;
+}
+
+
+/* ==============================
+   ABOUT PAGE
+================================= */
+
+.about-list {
+    width: 70%;
+    margin: 20px auto;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.about-list li {
+    margin-bottom: 10px;
+}
+
+
+/* ==============================
+   FORMS
+================================= */
+
+form {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #003366;
+}
+
+
+/* Radio and checkbox */
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+
+/* Submit and Reset buttons */
+
+input[type="submit"],
+input[type="reset"] {
+    width: 130px;
+    background: #003366;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    border: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background: #ff9800;
+}
+
+
+/* ==============================
+   CONTACT PAGE
+================================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background: #003366;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+    background: #f4f7fc;
+}
+
+
+/* ==============================
+   RESOURCES SECTION
+================================= */
+
+.resources {
+    padding: 50px;
+    text-align: center;
+    background: #f4f7ff;
+}
+
+.resources h2 {
+    color: #003366;
+    margin-bottom: 30px;
+}
+
+.resource-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.resource-card {
+    width: 230px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.resource-card:hover {
+    transform: translateY(-8px);
+}
+
+.resource-card h3 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.resource-card p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.resource-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background: #003366;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.resource-btn:hover {
+    background: #0056b3;
+}
+
+
+/* ==============================
+   FOOTER
+================================= */
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
+
+
+/* ==============================
+   RESPONSIVE DESIGN
+================================= */
+
+@media (max-width: 768px) {
+
+    /* Header */
+
+    .logo-section {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+
+    /* Navigation */
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+
+    /* Sections */
+
+    section {
+        width: 95%;
+        padding: 20px;
+    }
+
+
+    /* Welcome */
+
+    .welcome {
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .welcome-text {
+        width: 100%;
+    }
+
+    .welcome-image img {
+        width: 250px;
+    }
+
+
+    /* Campus */
+
+    .campus img {
+        width: 100%;
+    }
+
+    .campus p {
+        width: 100%;
+    }
+
+
+    /* Forms */
+
+    form {
+        width: 100%;
+    }
+
+
+    /* About */
+
+    .about-list {
+        width: 90%;
+    }
+
+
+    /* Resources */
+
+    .resources {
+        padding: 30px 15px;
+    }
+
+    .resource-card {
+        width: 90%;
+        max-width: 300px;
+    }
+
+
+    /* Tables */
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+}
